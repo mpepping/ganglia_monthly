@@ -1,0 +1,29 @@
+---
+reportmonth: '201401' # YYYYMM
+reporthost: 'ganglia.example.com'
+reporturl: '/performance/graph.php'
+outputdir: '/tmp/'
+urls:
+  net_month_01: "g=network_report&z=large&c=CLUSTER01&m=&r=month&s=descending&hc=4"
+  net_month_02: "g=network_report&z=large&c=CLUSTER02&m=&r=month&s=descending&hc=4"
+  net_week_01: "g=network_report&z=large&c=CLUSTER01&m=&r=week&s=descending&hc=4"
+  net_week_02: "g=network_report&z=large&c=CLUSTER02&m=&r=week&s=descending&hc=4"
+  cpu_month_01: "g=cpu_report&z=large&c=CLUSTER01&m=&r=month&s=descending&hc=4"
+  cpu_month_02: "g=cpu_report&z=large&c=CLUSTER02&m=&r=month&s=descending&hc=4"
+  load_month_01: "g=load_report&z=large&c=CLUSTER01&m=&r=month&s=descending&hc=4"
+  load_month_02: "g=load_report&z=large&c=CLUSTER02&m=&r=month&s=descending&hc=4"
+  mem_month_01: "g=mem_report&z=large&c=CLUSTER01&m=&r=month&s=descending&hc=4"
+  mem_month_02: "g=mem_report&z=large&c=CLUSTER02&m=&r=month&s=descending&hc=4"
+
+# Ganglia, URI mapping
+#
+#  g=REPORT_NAME
+#  z=large
+#  me=TITLE
+#  c=CLUSTERNAME
+#  m=
+#  r=month
+#  s=descending
+#  hc=4
+#  st=epoch
+
